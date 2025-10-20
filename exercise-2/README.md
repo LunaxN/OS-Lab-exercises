@@ -12,7 +12,7 @@
 #### Solution:
 
 ```bash
-mkdire -p /project/assets/css /project/assets/py /project/pages
+mkdir -p /project/assets/css /project/assets/py /project/pages
 ```
 
 ### 2: Haed Link vs Symbolic Link

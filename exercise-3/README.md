@@ -6,18 +6,18 @@
 ```bash
 grep -c "pattern" filename
 ```
-- The `-c` option counts and prints the number of matching lines instead of displaying the lines themeselves
+- The `-c` option counts and prints the number of matching lines instead of displaying the lines themselves
 
-### 2: Find all `.conf` files in `/ect` directory
+### 2: Find all `.conf` files in `/e‍tc` directory and its subdirectories
 
 #### Solution:
 
 ```bash
-find /ect -name "*.conf"
+find /etc -name "*.conf"
 ```
 
 - `find` command searches for files
-- `/ect` is the directory to search in
+- `/etc` is the directory to search in
 - `- name "*.conf"` looks for files ending with `.conf` extension
 
 ### 3: Extract 100 lines from the middle of a large file
@@ -25,9 +25,9 @@ find /ect -name "*.conf"
 #### Solution:
 
 ```bash
-head -n 199 data.csv | tail -n 99
+head -n 1099 data.csv | tail -n 100
 ```
 
-- `head -n 199` gets first 199 lines
-- `tail -n 99` gets last 99 lines from those 199 lines
-- Result: lines 99 - 199 (100 lines total)
+- `head -n 1099` gets first 1099 lines
+- `tail -n 100` gets last 100 lines from those 1099 lines
+- Result: lines 1000 through 1099 (100 lines total)

@@ -6,7 +6,7 @@
 ```bash
 grep -c "pattern" filename
 ```
-- The `-c` option counts and prints the number of matching lines instead of displaying the lines themselves
+The `-c` option counts and prints the number of matching lines instead of displaying the lines themselves
 
 ### 2: Find all `.conf` files in `/e‍tc` directory and its subdirectories
 

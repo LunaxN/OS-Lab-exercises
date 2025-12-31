@@ -31,7 +31,7 @@ Using double quotes around variables in shell scripts is essential to prevent wo
 
 Double quotes preserve the variable's value as a single string, even if it contains spaces, special characters, or is empty.
 
-### 3: A script for determine files or directories in current directory
+### 3: A script to determine whether items are files or directories in the current directory
 
 #### Solution:
 

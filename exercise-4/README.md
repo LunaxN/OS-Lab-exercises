@@ -18,7 +18,7 @@ chmod g-x deploy.sh
 ```
 
 - `chmod` command changes file permissions
-- `g` refers to the file's group owenership
+- `g` refers to the file's group ownership
 - `-` removes permission
 - `x` is execute permission
 - `deploy.sh` is the target script file
